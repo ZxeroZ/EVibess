@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo FlexBox</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/fc64d4956e.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+</head> 
+<body>
+    
+    <header class="header">
+        <nav class="nav">
+            <a href="" class="logo nav-link">Evibes.</a>
+            <button class="nav-toggle" aria-label="Abrir Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu nav-menu_visible">
+                <li class="nav-menu-items">
+                    <a href="" class="nav-menu-link nav-link nav-active">Inicio</a>
+                </li>
+                <li class="nav-menu-items">
+                    <a href="" class="nav-menu-link nav-link nav-active">Novedades</a>
+                </li>
+                <li class="nav-menu-items">
+                    <a href="" class="nav-menu-link nav-link nav-active">Acerca De</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="header2">
+        <div class="header2-wrap">
+             <h3>Bienvenido a Evibes.</h3>
+             <h1>Ritmos Electrónicos Excepcionales</h1>
+             <p>Sumérgete en el Universo Electrónico: Explora un Mundo de Beats Innovadores, 
+                 Sets Enérgicos y Artistas Emergentes.Encuentra tu Viaje Sonoro en Nuestro Espacio de Música 
+                 Electrónica.</p>
+                 
+            <div class="boton">
+                <button class="button type1">
+                    <span class="btn-txt">Iniciar</span>
+                </button>
+            </div>
+        </div>
+
+
+        <div class="img">
+         <img src="./dj-mixer-music-svgrepo-com.svg" alt="">
+        </div>
+     </section>
+
+    <section class="content">
+        <div class="section">
+                <h2>Mejores SubGeneros</h2>
+                <p>"Descubre los Subgéneros Más Electrizantes de la Música Electrónica.  
+                Explora un Universo de Sonidos Innovadores y Vibrantes."</p>     
+        </div>
+
+        <div class="contenido">
+            <div class="cards">
+                <div class="icon-text">
+                    <img src="./music-file-svgrepo-com.svg" alt="">
+                    <h3>EDM</h3>
+                </div>
+                <div class="text">
+                    <p>EDM, o Música Electrónica de Baile, es un género musical en constante 
+                    evolución que fusiona ritmos electrónicos con elementos pop y dance. 
+                    Con sus pegajosos beats y vibrantes sintetizadores, el EDM es sinónimo de 
+                    fiestas y euforia.</p>
+                    <a href="">ver mas</a>
+                </div>
+            </div>
+
+
+            <div class="cards">
+                <div class="icon-text">
+                    <img src="./record-player-3-svgrepo-com.svg" alt="">
+                    <h3>House</h3>
+                </div>
+                <div class="text">
+                    <p>El House, pilar esencial de la música electrónica, brinda ritmos 
+                        contagiosos y una energía única para la pista de baile. Con sus 
+                        pulsantes beats y melodías cautivadoras, es un género que une a 
+                        la gente en la celebración.</p>
+                        <a href="">ver mas</a>
+
+                </div>
+            </div>
+
+
+            <div class="cards">
+                <div class="icon-text">
+                    <img src="./record-player-3-svgrepo-com.svg" alt="">
+                    <h3>Dubstep</h3>
+                </div>
+                <div class="text">
+                    <p>El Dubstep, género nacido en la década de 1990, se caracteriza por bajos 
+                        profundos y ritmos sincopados. Con una mezcla única de gruñidos y 
+                        sintetizadores, crea una experiencia auditiva intensa y llena de energía..</p>
+                        <a href=""><span>ver más</span></a>
+
+                </div>
+
+            </div>
+
+
+            <div class="cards">
+                <div class="icon-text">
+                    <img src="./music-file-svgrepo-com.svg" alt="">
+                    <h3>Techno</h3>
+                </div>
+                <div class="text">
+                    <p> El Techno es vanguardia sonora, atmósfera envolvente, ritmos incesantes, y 
+                        una experiencia de baile hipnótica. Su influencia en la cultura electrónica 
+                        perdura, definiendo la escena underground con innovación y energía.</p>
+                        <a href="">ver mas</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </section>
+
+
+    <div class="musica">
+
+        <div class="musica-section">
+            <h2>Explora Miles de Canciones</h2>
+            <p>Bienvenido a nuestra selección de música, una colección curada especialmente para ti. 
+                Sumérgete en un mundo de melodías que te llevarán en un viaje emocional.Desde vibrantes ritmos
+                 hasta baladas conmovedoras, encontrarás una variedad de géneros que se adaptan a cada estado de ánimo.</p>
+        </div>
+
+        <div class="music-card">
+            <h2 class="song-title">Nombre de la Canción</h2>
+            <img class="album-cover" src="1.jpg" alt="Caratula del Álbum">
+            <audio class="audio-player" src=""></audio>
+            <div class="controls">
+                <div class="principal">
+                    <button class="previous-button botonn">Anterior</button>
+                    <button class="play-pause-button botonn">Pausa</button>
+                    <button class="next-button botonn">Siguiente</button>
+                </div>
+                <div class="auto">
+                    <button class="auto-play-button botonn">Auto</button>
+                </div>
+            </div>
+            <input class="volume-slider" type="range" min="0" max="100" step="1" value="50">
+
+
+        </div>
+         
+  
+        <!--- Add javascript file --->
+        <script src="main.js"></script>
+
+    </div>
+
+
+
+
+
+
+</body>
+</html>
